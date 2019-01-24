@@ -17,7 +17,6 @@ import fr.adoptunstage.spring.message.request.SignUpPostuler;
 import fr.adoptunstage.spring.message.response.ResponseMessage;
 import fr.adoptunstage.spring.models.Entreprise;
 import fr.adoptunstage.spring.models.EntrepriseMail;
-import fr.adoptunstage.spring.models.HTMLMail;
 import fr.adoptunstage.spring.models.Offre;
 import fr.adoptunstage.spring.models.Stagiaire;
 import fr.adoptunstage.spring.models.StagiaireMail;

@@ -17,6 +17,8 @@ export class StagiairesDashboardComponent implements OnInit {
   public currentPage = 0;
   public totalSize = 0;
   confirmResult = null;
+  isMobile;
+  pageEvent;
 
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;

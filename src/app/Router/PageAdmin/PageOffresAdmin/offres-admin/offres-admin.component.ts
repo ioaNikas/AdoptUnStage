@@ -17,6 +17,7 @@ export class OffresAdminComponent implements OnInit {
   public offres: any;
   public pageSize = 5;
   public currentPage = 0;
+  pageEvent;
   public totalSize = 0;
   confirmResult = null;
 

@@ -15,6 +15,7 @@ export class EntreprisesAdminComponent implements OnInit {
   displayedColumns: string[] = ['logo', 'raisonSociale', 'referent', 'email', 'tel', 'adresse', 'offres', 'modifier', 'supprimer'];
   public array: any;
   public entreprises: any;
+  pageEvent;
   public pageSize = 5;
   public currentPage = 0;
   public totalSize = 0;

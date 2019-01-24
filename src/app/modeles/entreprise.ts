@@ -1,7 +1,10 @@
+import { Url } from 'url';
+
 export interface Entreprise {
     civilite: string;
     name: string;
     username: string;
+    description: string;
     email: string;
     role: string[];
     password: string;
@@ -11,7 +14,7 @@ export interface Entreprise {
     adresse: string;
     ville: string;
     codePostal: string;
-    logo: string;
+    logo: Url;
     prenom: string;
     contactMail: string;
     tel: string;

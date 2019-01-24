@@ -15,6 +15,7 @@ export class ActeursPartenairesAdminComponent implements OnInit {
   displayedColumns: string[] = ['logo', 'nom', 'description', 'siteWeb', 'modifier', 'supprimer'];
   public array: any;
   public acteurs: any;
+  pageEvent;
   public pageSize = 5;
   public currentPage = 0;
   public totalSize = 0;

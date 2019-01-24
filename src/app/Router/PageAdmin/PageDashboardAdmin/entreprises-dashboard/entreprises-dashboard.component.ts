@@ -14,6 +14,8 @@ export class EntreprisesDashboardComponent implements OnInit {
   public entreprises: any;
   public pageSize = 5;
   public currentPage = 0;
+  isMobile;
+  pageEvent;
   public totalSize = 0;
 
   @ViewChild(MatPaginator) paginator: MatPaginator;

@@ -16,6 +16,7 @@ export class StagiairesAdminComponent implements OnInit {
   public array: any;
   public stagiaires: any;
   public pageSize = 5;
+  pageEvent;
   public currentPage = 0;
   public totalSize = 0;
   confirmResult = null;

@@ -3,12 +3,8 @@ package fr.adoptunstage.spring.services.impl;
 import java.io.File;
 
 import javax.activation.DataHandler;
-import javax.activation.DataSource;
 import javax.activation.FileDataSource;
-import javax.mail.BodyPart;
 import javax.mail.MessagingException;
-import javax.mail.Multipart;
-import javax.mail.Transport;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
@@ -23,10 +19,10 @@ import org.springframework.stereotype.Service;
 import fr.adoptunstage.spring.message.response.ResponseMessage;
 import fr.adoptunstage.spring.models.EntrepriseMail;
 import fr.adoptunstage.spring.models.HTMLMail;
-import fr.adoptunstage.spring.services.MailService;
 import fr.adoptunstage.spring.models.SignupMail;
 import fr.adoptunstage.spring.models.StagiaireMail;
 import fr.adoptunstage.spring.payload.UploadFileResponse;
+import fr.adoptunstage.spring.services.MailService;
 
 @Service
 public class MailServiceImpl implements MailService {

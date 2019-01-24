@@ -16,6 +16,7 @@ export class CollegesAdminComponent implements OnInit {
   displayedColumns: string[] = ['nom', 'adresse', 'contactPublic', 'nomReferent', 'telReferent', 'modifier', 'supprimer'];
   public array: any;
   public colleges: any;
+  pageEvent;
   public pageSize = 5;
   public currentPage = 0;
   public totalSize = 0;

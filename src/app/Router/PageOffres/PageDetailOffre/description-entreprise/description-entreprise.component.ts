@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Offre } from 'src/app/modeles/offre';
+import { Entreprise } from 'src/app/modeles/entreprise';
 
 @Component({
   selector: 'app-description-entreprise',
@@ -9,6 +10,7 @@ import { Offre } from 'src/app/modeles/offre';
 export class DescriptionEntrepriseComponent implements OnInit {
 
   @Input() offre: Offre;
+  @Input() entreprise: Entreprise;
 
   constructor() { }
 
